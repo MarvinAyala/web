@@ -1,0 +1,17 @@
+caption{
+	font-size: 30px;
+margin-bottom: 100px;
+}
+	table{
+		font-size: 20px;
+      margin: 0 auto;
+		width:50%;
+		padding:5px;
+	}
+	th {
+		text-align: center;
+		padding:5px;
+	}
+	td {
+		padding:5px;
+	}

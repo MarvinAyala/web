@@ -1,0 +1,74 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+html, body{
+	background-color: #404040;
+}
+
+div#body{
+	margin: 40px auto;
+	width: 70%;
+	min-height: 50px;
+	overflow: hidden;
+	border-radius: 5px;
+}
+
+div.subapartado{
+	width: 100%;
+	min-height: 50px;
+}
+
+div.titulo{
+	width: 100%;
+	height: 50px;
+	background-color: #212121;
+	overflow: hidden;
+	border-bottom: 1px solid #424242;
+}
+
+p.titulo{
+	margin: 13px;
+	color: white;
+	text-align: center;
+}
+
+div.info{
+	width: 100%;
+	height: 0px;
+	background-color: #C0C0C0;
+	overflow: hidden;
+	text-align: center;
+}
+
+p.info{
+	margin: 20px;
+	text-align: center;
+	color: #4f4f4f;
+}
+
+
+div.subapartado:hover div.info{
+	height: auto;
+}
+
+img.imagenes{
+	margin-top: 15px;
+	width: 300px;
+	height: 200px;
+}
+
+
+
+@media screen and (max-width: 800px){
+
+div#body{
+	width: 100%
+}
+
+}

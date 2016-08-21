@@ -1,0 +1,29 @@
+
+#vid{
+	padding-left: none;
+	text-align: center;
+	border-radius: 2px ;
+	border-color: #ffffff;	
+	background-image: url(../img/FONDO_VIDEO.jpg);
+	
+}
+
+#letras{
+	top: 10px;
+	bottom: 10px;
+	text-align: center;
+}
+
+
+iframe{
+	margin:20px; 
+}
+
+
+@media screen and (max-width: 600px){
+	iframe{
+		margin: 10px;
+		width: 210px;
+		height: auto;
+	}
+}
